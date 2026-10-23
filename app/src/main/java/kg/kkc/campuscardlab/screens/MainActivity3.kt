@@ -53,7 +53,7 @@ class MainActivity3 : ComponentActivity() {
             modifier = Modifier.padding(top = 50.dp, start = 10.dp)
         ) {
             ProfileHeader(
-                name = "Тилек Абдрахманов",
+                name = "Анжелика Ли",
                 status = "Android-разработчик"
             )
 
@@ -62,13 +62,13 @@ class MainActivity3 : ComponentActivity() {
             ScheduleRow(
                 time = "09:00",
                 title = "Kotlin",
-                room = "Аудитория 101"
+                room = "Аудитория 1"
             )
 
             ScheduleRow(
                 time = "11:00",
                 title = "Jetpack Compose",
-                room = "Аудитория 202"
+                room = "Аудитория 2"
             )
         }
     }
