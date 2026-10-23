@@ -1,4 +1,4 @@
-package kg.kkc.campuscardlab
+package kg.kkc.campuscardlab.screens
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -26,6 +26,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import kg.kkc.campuscardlab.R
 import kg.kkc.campuscardlab.ui.theme.Pink80
 
 class MainActivity2 : ComponentActivity() {
@@ -79,6 +80,7 @@ class MainActivity2 : ComponentActivity() {
             Column {
                 Row(
                     modifier = Modifier
+                        .weight(1f)
                         .fillMaxWidth(),
                     horizontalArrangement = Arrangement.SpaceBetween
                 ) {
@@ -99,6 +101,7 @@ class MainActivity2 : ComponentActivity() {
                 }
                 Row(
                     modifier = Modifier
+                        .weight(1f)
                         .fillMaxWidth(),
                     horizontalArrangement = Arrangement.SpaceBetween
                 ) {
@@ -119,6 +122,7 @@ class MainActivity2 : ComponentActivity() {
                 }
                 Row(
                     modifier = Modifier
+                        .weight(1f)
                         .fillMaxWidth(),
                     horizontalArrangement = Arrangement.SpaceBetween
                 ) {
@@ -139,6 +143,7 @@ class MainActivity2 : ComponentActivity() {
                 }
                 Row(
                     modifier = Modifier
+                        .weight(1f)
                         .fillMaxWidth(),
                     horizontalArrangement = Arrangement.SpaceBetween
                 ) {

@@ -21,7 +21,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CampusCardLab">
         <activity
-            android:name=".MainActivity"
+            android:name=".screens.MainActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.CampusCardLab"
@@ -33,7 +33,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity2"
+            android:name=".screens.MainActivity2"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.CampusCardLab"
@@ -44,6 +44,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".screens.MainActivity3"
+            android:exported="false"
+            android:label="@string/title_activity_main3"
+            android:theme="@style/Theme.CampusCardLab"
+            android:windowSoftInputMode="adjustResize" />
     </application>
 
 </manifest>

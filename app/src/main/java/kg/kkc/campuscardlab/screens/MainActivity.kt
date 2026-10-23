@@ -1,4 +1,4 @@
-package kg.kkc.campuscardlab
+package kg.kkc.campuscardlab.screens
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -32,7 +32,8 @@ class MainActivity : ComponentActivity() {
             modifier = Modifier
                 .fillMaxSize()
                 .padding(top = 64.dp, start = 12.dp),
-            horizontalAlignment = Alignment.CenterHorizontally
+            verticalArrangement = Arrangement.Top,
+            horizontalAlignment = Alignment.Start
         ) {
             Text(
                 text = "Campus Card",
